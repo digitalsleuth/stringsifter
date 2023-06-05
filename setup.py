@@ -62,7 +62,7 @@ metadata = {
                             'flarestrings=stringsifter.flarestrings:main']
     },
     'install_requires': requirements,
-    'python_requires': '>=3.10',
+    'python_requires': '<=3.10',
     # Metadata
     'name': 'stringsifter',
     'version': _version['__version__'],

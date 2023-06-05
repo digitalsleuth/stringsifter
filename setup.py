@@ -62,7 +62,7 @@ metadata = {
                             'flarestrings=stringsifter.flarestrings:main']
     },
     'install_requires': requirements,
-    'python_requires': '>=3.8',
+    'python_requires': '>=3.10',
     # Metadata
     'name': 'stringsifter',
     'version': _version['__version__'],
@@ -70,8 +70,8 @@ metadata = {
                    'automatically ranks the output of the `strings` ' + \
                    'program for binary triage analysis.',
     'long_description': long_description,
-    'url': 'https://github.com/fireeye/stringsifter',
-    'download_url': 'https://github.com/fireeye/stringsifter',
+    'url': 'https://github.com/mandiant/stringsifter',
+    'download_url': 'https://github.com/mandiant/stringsifter',
     'keywords': ['stringsifter', 'rank', 'strings', 'binary', 'triage'],
     }
 

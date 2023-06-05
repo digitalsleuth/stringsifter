@@ -4,11 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-lightgbm = "~= 3.1"
-numpy = "~= 1.17"
-scikit-learn = "== 0.23.2"
-joblib = ">=0.13.2,<0.17"
+lightgbm = "~=3.1"
+numpy = ">=1.24"
+scikit-learn = "~=1.2"
+joblib = "~=1.0"
 fasttext = "*"
+pybind11 = "*"
+cython = "*"
 
 [dev-packages]
 pytest = "*"
@@ -17,7 +19,7 @@ twine = "*"
 wheel = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3"
 
 [scripts]
 rank_strings = "python -m stringsifter.rank_strings"
